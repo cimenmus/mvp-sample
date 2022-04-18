@@ -5,6 +5,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.icmen.mvpsample.databinding.ActivityAdBinding
 
+// https://medium.com/@musticmen/mvp-vs-mvvm-on-android-ddd4dd8c9a5b
 class AdActivity : AppCompatActivity(), AdContract.View {
 
     private lateinit var binding: ActivityAdBinding
